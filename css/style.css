@@ -28,14 +28,17 @@
     font-size: 15px;
 }
 .images img {
-    height:300px;
+    height:auto;
     margin: 20px;
 }
 .images {
-    display: block;
+    position: absolute;
+    overflow: hidden;
 }
 .footer {
     background: rgb(4, 78, 64);;
     text-align: center;
     color: white;
+    position: relative;
+    top: 550px;
 }
