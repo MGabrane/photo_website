@@ -21,24 +21,37 @@
     padding: 0px;
 }
 .main-nav li {
-    float: right;
+    float: left;
     margin-right: 20px;
-    line-height: 45px;
+    line-height: 80px;
     color: white;
     font-size: 15px;
 }
-.images img {
-    height:auto;
-    margin: 20px;
+.main-nav a{
+    float: left;
+    margin-right: 20px;
+    line-height: 80px;
+    color: white;
+    font-size: 15px;
 }
-.images {
-    position: absolute;
-    overflow: hidden;
+.main-nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.images{
+    display: block;
+    margin-top: 40px;
+    position: relative;
+    left: 25%;
+}
+.bxslider img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 550px;
 }
 .footer {
     background: rgb(4, 78, 64);;
     text-align: center;
     color: white;
-    position: relative;
-    top: 550px;
 }
