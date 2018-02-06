@@ -7,6 +7,13 @@ $(document).ready(function(){
 		'speedOut'		:	200, 
 		'overlayShow'	:	false
 	});
-          
+        
   
-})    
+})  
+   position: function( event, ui ){
+	ui.$(".article-text").position({
+		my: 'left',
+		at: 'rightr',
+		of:$(".pictures"),
+	})
+}

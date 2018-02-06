@@ -43,21 +43,20 @@ font-size: 18px;
     border-bottom: 10px solid;
     border-bottom-color: black;
 }
+
+.pictures{
+    overflow: hidden;
+    margin-left: 20px;
+    display: inline-block;
+}
+.article-text{
+display: inline-block;
+}
+.pages{
+    float:right;
+}
 .footer {
     background: rgb(4, 78, 64);;
     text-align: center;
     color: white;
-}
-.article-text{
-    float: left;
-    margin: 300px 10px 10px 10px;
-}
-.text{
-    border: 10px;
-    border-bottom-color: blue;
-}
-table a .pages{
-font-size: 12px;
-text-decoration: none;
-color: grey;
 }
