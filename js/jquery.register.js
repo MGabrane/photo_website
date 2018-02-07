@@ -8,6 +8,13 @@ $('#reg-form').submit(function(event){
         $userName.parent().append(error);
     }
 
+    var $eMail = $('#reg-form input[name="e-mail"]');
+    if($eMail.val() == '' || $eMail.val().indexOf("@") == -1) {
+        hasErrors = true;
+        var error = '<div class="error_text">Field <b>E-Mail</b> is empty or not valid.</div>';
+        $eMail.parent().append(error);
+    }
+
     var $password = $('#reg-form input[name="password"]');
     if($password.val() == '' || $password.val().length < 8) {
         hasErrors = true;
@@ -29,7 +36,7 @@ $('#reg-form').submit(function(event){
         $firstName.parent().append(error);
     }
 
-    if ($('#reg-form input.checkbox_check').is(':checked')) {
+    if (!$('#reg-form input.checkbox_check').is(':checked')) {
         hasErrors = true;
         var error = '<div class="error_text">You need to agree with terms </div>';
         $('#reg-form input.checkbox_check').parent().append(error);
@@ -39,6 +46,8 @@ $('#reg-form').submit(function(event){
 
     if(hasErrors == true){
         event.preventDefault();
+    }else{
+        alert("Veiksmīga reģistrācija");
     }
 
 });
