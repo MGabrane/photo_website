@@ -19,7 +19,7 @@
     padding: 0px;
 }
 .main-nav li {
-    float: right;
+    float: left;
     margin-right: 20px;
     line-height: 45px;
     color: white;
