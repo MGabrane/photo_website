@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    $(".grouped_elements").fancybox();
-    $(".grouped_elements").fancybox({
+    $("a.grouped_elements").fancybox();
+    $("a.grouped_elements").fancybox({
 		'transitionIn'	:	'elastic',
 		'transitionOut'	:	'elastic',
 		'speedIn'		:	600, 
@@ -10,10 +10,11 @@ $(document).ready(function(){
         
   
 })  
-   position: function( event, ui ){
-	ui.$(".article-text").position({
-		my: 'left',
-		at: 'rightr',
-		of:$(".pictures"),
-	})
-}
+$('.single_image').fancybox();
+
+	document.messages('#button-send')
+.addEventListener('click', function(){
+    document.
+    querySelector('.entered-message')
+    .innerHTML = document.messages('.show-last-message');
+})

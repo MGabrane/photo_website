@@ -1,3 +1,4 @@
+
 .header {
     background:rgb(4, 78, 64);
     overflow: hidden;
@@ -26,14 +27,14 @@
   
 }
 .second_header{
-    height: 10px;
-    text-decoration: none;
+    float: left;
+    height: 30px;
  }
 .second_header a{
-list-style: none;
+text-decoration: none;    
 color: black;
-font-size: 18px;
-    float: left;
+font-size: 12px;
+    
 }
 .second_header a:hover {
     color: grey;
@@ -43,18 +44,46 @@ font-size: 18px;
     border-bottom: 10px solid;
     border-bottom-color: black;
 }
-
 .pictures{
+    float: left;
     overflow: hidden;
-    margin-left: 20px;
-    display: inline-block;
+    
 }
-.article-text{
-display: inline-block;
+.grouped_elements img, .img-article img{
+   max-width: 100%;
+}
+.img-article{
+    float: left;
+    overflow: hidden;
+    width: 20%;
+}
+.article-text {
+    float: left;
+    text-align: justify;
 }
 .pages{
     float:right;
+    
 }
+.pages li {
+    float: right;
+    list-style: none;
+    color:grey;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.chat-box{
+    border-style: groove;
+    float: left;
+}
+.button-send{
+    float: right;
+
+}
+
+
+
 .footer {
     background: rgb(4, 78, 64);;
     text-align: center;
