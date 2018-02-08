@@ -63,15 +63,17 @@ font-size: 12px;
     float: left;
     text-align: justify;
 }
-.pages{
-    float:right;
-    
+.pages {
+    float:left;
+}
+.pages ul{
+    float: right
 }
 .pages li {
     float: right;
     list-style: none;
     color:grey;
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: none;
 }
 
