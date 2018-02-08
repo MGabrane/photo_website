@@ -1,4 +1,6 @@
-
+* {
+    font-family: montserrat, sans-serif;
+}
 .header {
     background:rgb(4, 78, 64);
     overflow: hidden;
@@ -81,7 +83,24 @@ font-size: 12px;
     float: right;
 
 }
-
+#chat-window{
+    height: 300px;
+    border: 1px solid #ccc;
+    margin: 10px 0px;
+    padding: 10px;
+    overflow: auto;
+}
+.chat-message {
+    border-bottom: 1px solid #ccc;
+}
+.chat-message{
+    font-size: 10px;
+    color: grey;
+}
+.message-text{
+    font-size: 14px;
+    color: black;
+}
 
 
 .footer {
