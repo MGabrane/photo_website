@@ -53,41 +53,15 @@ body{
     margin-right: auto;
     height: 550px;
 }
-.register_form{
-    margin: 50px 30px;
-}
-.register_form li {
-    margin:10px;
-    list-style: none;
-}
-.error_text{
-    margin: 10px;
-    font-size: 10px;
-}
-.footer {
-    background: rgb(4, 78, 64);;
-    text-align: center;
-    color: white;
-    width:100%;
-}
-.footerR {
-    background: rgb(4, 78, 64);;
-    text-align: center;
-    color: white;
-    position:absolute;
-    bottom:0;
-    width:100%;
-}
-
 .gallery {
     list-style: none;
+    vertical-align: middle;
     
 }
 .gallery li{
     margin-top: 40px;
     margin-bottom: 40px;
-    align-items: center;
-    overflow-x: hidden;
+    display: inline-block;
 }
 .story-link {
     color: black;
@@ -111,4 +85,35 @@ body{
     height: 150px;
     margin: 15px;
     float: left;
+}
+/* Register */
+.register_form{
+    margin: 50px 30px;
+}
+.register_form li {
+    margin:10px;
+    list-style: none;
+}
+.error_text{
+    margin: 10px;
+    font-size: 10px;
+}
+.about-us img{
+    height: 200px;
+    margin: 15px;
+    float: left;
+}
+.footer {
+    background: rgb(4, 78, 64);;
+    text-align: center;
+    color: white;
+    width:100%;
+}
+.footerR {
+    background: rgb(4, 78, 64);;
+    text-align: center;
+    color: white;
+    position:absolute;
+    bottom:0;
+    width:100%;
 }
