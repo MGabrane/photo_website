@@ -1,33 +1,7 @@
 * {
     font-family: montserrat, sans-serif;
 }
-/* .header {
-    background:rgb(4, 78, 64);
-    overflow: hidden;
-    height: 80px;
-}
-.logo img {
-    height: 50px;
-    margin: 15px;
-}
-.logo {
-    display: block;
-    float: left;
-    width: 300px;
-}
-.main-nav {
-    float: right;
-    list-style: none;
-    padding: 0px;
-}
-.main-nav li {
-    float: left;
-    margin-right: 20px;
-    line-height: 45px;
-    color: white;
-    font-size: 15px;
-  
-} */
+
 .second_header{
     float: left;
     height: 30px;
@@ -141,9 +115,3 @@ font-size: 12px;
     margin-right: 2px;
 }
 
-/* 
-.footer {
-    background: rgb(4, 78, 64);;
-    text-align: center;
-    color: white;
-} */
