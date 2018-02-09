@@ -22,18 +22,17 @@
 .main-nav {
     float: right;
     list-style: none;
-    padding: 0px;
 }
 .main-nav li {
     float: left;
-    margin-right: 20px;
+    margin-right: 10px;
     line-height: 80px;
     color: white;
     font-size: 15px;
 }
 .main-nav li a{
     float: left;
-    margin-right: 20px;
+    margin-right: 10px;
     line-height: 80px;
     color: white;
     font-size: 15px;
@@ -46,24 +45,18 @@
     display: block;
     margin-top: 40px;
     position: relative;
-    left: 25%;
+    /* left: 25%; */
 }
 .bxslider img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 550px;
-    
+    height: auto;
 }
-.gallery {
-    list-style: none;
-    vertical-align: middle;
-    
-}
-.gallery li{
+.gallery .small-stories{
     margin-top: 40px;
     margin-bottom: 40px;
-    display: inline-block;
+    float: left;
 }
 .story-link {
     color: black;
@@ -71,7 +64,9 @@
     border: 1px;
     border-style: solid;
     border-color:  rgb(4, 78, 64);
+    height: 180px;
     width: 400px;
+    margin: 10px;
 }
 .story-link:hover {
     color: black;
@@ -105,6 +100,18 @@
     margin: 15px;
     float: left;
 }
+/* About us */
+#tabs{
+    margin: 40px;
+}
+.small-tabs img{
+    height: 200px;
+    margin: 20px;
+ }
+.small-tabs{
+    display: block;
+    float: left;
+ }
 .footer {
     background: rgb(4, 78, 64);;
     text-align: center;
