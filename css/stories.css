@@ -75,33 +75,48 @@ font-size: 12px;
     float: left;
     text-align: justify;
 }
-.pages{
-    float:right;
-    
+.pages {
+    float:left;
+}
+.pages ul{
+    float: right
 }
 .pages li {
     float: right;
     list-style: none;
     color:grey;
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: none;
 }
-
+.chat-box-container{
+    padding-bottom: 30px;
+}
 .chat-box{
     border-style: groove;
+    border-color: rgb(4, 78, 64);
+    border-width: 1px;
     float: left;
     margin-bottom: 40px;
 }
-.button-send{
-    float: right;
 
+#chat-username-input{
+    width: 25%;
+}
+.btn{
+    float: left;
+    background: rgb(4, 78, 64);
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
 }
 #chat-window{
-    height: 300px;
+    height: 200px;
     border: 1px solid #ccc;
     margin: 10px 0px;
     padding: 10px;
     overflow: auto;
+    border-color: rgb(4, 78, 64);
 }
 .chat-message {
     border-bottom: 1px solid #ccc;
