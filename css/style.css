@@ -1,7 +1,8 @@
 * {
     font-family: montserrat, sans-serif;
 }
-body{
+
+.body{
     overflow-x:hidden;
 }
 .header {
