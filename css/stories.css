@@ -1,6 +1,9 @@
 * {
     font-family: montserrat, sans-serif;
 }
+body{
+    overflow-x:hidden;
+}
 .header {
     background:rgb(4, 78, 64);
     overflow: hidden;
@@ -18,15 +21,24 @@
 .main-nav {
     float: right;
     list-style: none;
-    padding: 0px;
 }
 .main-nav li {
     float: left;
-    margin-right: 20px;
-    line-height: 45px;
+    margin-right: 10px;
+    line-height: 80px;
     color: white;
     font-size: 15px;
-  
+}
+.main-nav li a{
+    float: left;
+    margin-right: 10px;
+    line-height: 80px;
+    color: white;
+    font-size: 15px;
+}
+.main-nav a:hover{
+    color: white;
+    text-decoration: underline;
 }
 .second_header{
     float: left;
@@ -78,6 +90,7 @@ font-size: 12px;
 .chat-box{
     border-style: groove;
     float: left;
+    margin-bottom: 40px;
 }
 .button-send{
     float: right;
