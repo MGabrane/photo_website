@@ -3,7 +3,9 @@
 }
 
 .body{
-    overflow-x:hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100%;
 }
 .header {
     background:rgb(4, 78, 64);
@@ -51,12 +53,14 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-height: 600px;
     height: auto;
 }
 .gallery .small-stories{
     margin-top: 40px;
     margin-bottom: 40px;
     float: left;
+    
 }
 .story-link {
     color: black;
